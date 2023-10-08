@@ -1,0 +1,356 @@
+body{
+    font-family: arial;
+    margin: 0%;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding-inline: 60px;
+    box-shadow: 0px 1px 7px lightgrey;
+}
+.icon button{
+    border-radius: 50%;
+    border: none;
+    background-color: orangered;
+    height: 30px;
+    width: 30px;
+}
+.icon p{
+    margin: 0%;
+    color: white;
+}
+input{
+   border-radius: 15px;
+   border: solid 1px;
+   border-color: lightgray;
+   height: 25px;
+   padding-right: 15px;
+   padding-left: 10px;
+}
+.slot-logo img{
+    width: 200px;
+    padding-block: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.body-page{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 60px;  
+}
+  
+.title{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-top: 35px ;
+    border-bottom: 1px solid lightgrey;
+    margin-right: 45px;
+
+}
+.title-two{
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 0%;
+    padding-bottom: 5px;
+}
+.title-one{
+    margin: 0%;
+    color: lightgray;
+    padding-bottom: 5px;
+}
+.title h6{
+    margin: 0%;
+    text-align: center;
+    padding: 5px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 45px;
+    margin-right: 45px;
+}
+.left{
+    width: 60%;
+    border-right: 1px solid lightgrey ;
+    padding-top: 20px; 
+}
+.right{
+    width: 40%;
+    padding-top: 20px;
+
+
+}
+.top-card-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+.top-card-left img{
+    width: 20px;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+
+}
+.top-card-left h6{
+    margin: 0%;
+}
+.card-left h3{
+    margin: 0%;
+
+}
+.card-left p{
+    font-size: 86%;
+    margin: 0%;
+    padding-top: 10px;
+    color: gray;
+}
+.card-right img{
+    width: 200px;
+}
+.card-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.card-down p{
+    color: grey;
+    font-size: 80%;
+    padding: 0%;
+    
+}
+.card-down span{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 3px;
+}
+.card-down img{
+    width: 20px;
+    height: 20px;
+}
+.colonna1{
+    padding-inline: 60px;
+    text-align: center;
+    margin-left: 60px;
+    border-bottom: 1px solid lightgray;
+}
+.sez1 p{
+    margin: 0%;
+    color: lightgray;
+}
+.sez1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px ;
+    margin-top: 25px;
+  
+}
+.sez1 .two{
+    width: 25px;   
+}
+.sez1 .one{
+    width: 50px;
+}
+.sez2{
+    margin-top:  5px;
+}
+.sez2 p{
+    font-size: 90%;
+    margin: 0%;
+
+}
+.sez2 span p{
+    color: grey;
+    text-decoration: underline;
+    margin: 0%;
+    padding-bottom: 20px;
+    font-size: 65%;
+    
+}
+.sez2 button{
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    background-color: transparent;
+    padding-block: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    margin-block: 20px ;
+
+}
+.bottone-twitter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.bottone-twitter img{
+    width: 25px;
+}
+.bottone-twitter p{
+    font-size: small;
+}
+.colonna2{
+    text-align: center;
+    margin-left: 60px;
+}
+.colonna2 h5{
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 15px;
+}
+.lista button{
+    background-color: lightgrey;
+    border: none;
+    border-radius: 20px;
+}
+.lista button p{
+    padding: 7px;
+    margin: 0%;
+    font-size: small;
+}
+.lista-bottoni{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+
+}
+.box-account{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.account{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.text{
+    margin-right: 75px;
+}
+.text p{
+    margin: 0%;
+    
+    font-size: 71%;
+    color: grey;
+}
+.text-up p{
+    margin: 0%;
+    text-align: left;
+    font-size: smaller;
+    color: black;
+    
+}
+.account img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.account button{
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-block: 5px;
+    padding-inline: 10px;
+}
+.account button p{
+    margin: 0%;
+}
+
+.colonna2 h4{
+    margin: 0%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.subtitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px
+}
+.subtitle p{
+    color: grey;
+    font-size: 81%;
+    margin: 0%;
+}
+ion-icon{
+    color: gray;
+}
+.recent-account{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.recent-account img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.recent-account p{
+    font-size: 70%;
+}
+.date h4{
+    padding: 0%;
+}
+.date p{
+    color: grey;
+    font-size: 81%;
+    margin: 0%;
+    padding-top: 10px;
+    text-align: left;
+}
+.See-all p{
+    color: green;
+    font-size: 81%;
+    margin: 0%;
+    text-align: left;
+    padding-top: 20px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15%;
+
+}
+.option-bar{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.option button{
+    border: none;
+    background-color: transparent;
+    padding: 0%;
+}
+.option p{
+    color: gray;
+    font-size: 96%;
+    margin: 0%;
+}
+
+
